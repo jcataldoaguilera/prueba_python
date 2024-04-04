@@ -11,7 +11,6 @@ from modulos import export as go
 
 
 # Variables
-api = 'https://aves.ninjas.cl/api/birds'
 response = rq.request_get('https://aves.ninjas.cl/api/birds')
 payload_card = ""
 
