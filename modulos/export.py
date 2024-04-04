@@ -5,11 +5,11 @@
 #
 
 # Funciones
-def export(var, file):
-    with open(file, 'w') as f:
+def export(var):
+    with open('index.html', 'w') as f:
         f.write(var)
 
 
 if __name__ == '__main__':
     prueba = "hola mundo"
-    export(prueba, 'test.html')
+    export(prueba)
